@@ -8,11 +8,11 @@
         "test": "ng test",
         "lint": "ng lint",
         "e2e": "ng e2e",
-        "heroku-postbuild": "ng build"
+        "heroku-postbuild": "ng build --configuration=production"
     },
     "engines": {
-        "node": "6.11.0",
-        "npm": "3.10.10"
+        "node": "~6.11.0",
+        "npm": "~3.10.10"
     },
     "private": true,
     "dependencies": {
